@@ -59,16 +59,19 @@ body{
 
 #result{
   border-radius: 30px;
-  width: 150px;
-  height: 60px;
+  width: 185px;
+  height: 31px;
   background: #fff;
   margin: 1rem 0;
+  font-weight: bold;
 }
 input{
-  max-width: 100px;
+  max-width: 185px;
   border: none;
   padding: .5rem;
   border-radius: 30px;
+  text-align: center;
+  font-weight: bold;
   
 }
 input + input{
