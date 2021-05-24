@@ -37,7 +37,7 @@ body{
   font-size: 3rem;
   margin-bottom: 2rem;
 }
-.content p{
+.content > p{
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
@@ -64,6 +64,7 @@ body{
   background: #fff;
   margin: 1rem 0;
   font-weight: bold;
+  font-size: .875rem !important ;
 }
 input{
   max-width: 185px;
