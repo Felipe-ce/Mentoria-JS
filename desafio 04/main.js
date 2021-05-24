@@ -1,3 +1,3 @@
-import initSomar from './modules/somar.js'
+import initNomeCompleto from './modules/nome-completo.js'
 
-initSomar()
+initNomeCompleto()
