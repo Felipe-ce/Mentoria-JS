@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Source+Sans+Pro&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 100vh;
+  background: #E0E0E0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  background: cornflowerblue;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 2rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+.content h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.content > p{
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+[data-img="lampada"]{
+  width: 300px;
+  cursor: pointer;
+}
