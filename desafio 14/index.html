@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    function load() {
+      const div = document.querySelector('#result')
+      
+    div.innerHTML = '<p>Esse texto foi inserido pelo JavaScript</p>'
+    }
+    window.onload = load
+  </script>
+
+  <title>Mudar BG</title>
+</head>
+
+<body>
+  <main>
+    <section class="content">
+      <h1>Onload</h1>
+      <p>Carregando com Onload</p>
+
+
+      <div id="result">
+      </div>
+
+    </section>
+  </main>
+</body>
+
+</html>
