@@ -1,4 +1,4 @@
-import initSomar from './modules/somar.js'
+import initBg from './modules/bg.js'
 
 
-initSomar()
+initBg()

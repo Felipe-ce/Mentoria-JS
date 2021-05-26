@@ -48,11 +48,26 @@ body{
   border: none;
   font-size: 1.25rem;
   padding: .5rem;
-  border-radius: 30px;
-  background: #e0e0e0;
+  border-radius: 20px;
+
   box-shadow:  20px 20px 60px #929292,
                -20px -20px 60px #dbdbdb;
   transition: background 300ms ease;
+}
+#btn-verde{
+  background: #43a15f;
+}
+#btn-verde:hover{
+  background: #326b43fb;
+}
+#btn-vermelho{
+  background: #e06767;
+}
+#btn-vermelho:hover{
+  background: #974747;
+}
+.btn+.btn{
+  margin-left: .5rem;
 }
 .btn:hover{
   background: #bebebe;
@@ -61,12 +76,13 @@ body{
 #result{
   border-radius: 30px;
   width: 185px;
-  height: 31px;
+  height: 180px;
   background: #fff;
   margin-bottom: 1rem;
   font-weight: bold;
   font-size: .875rem !important ;
   background: #cacaca;
+  transition: background 300ms ease;
 }
 input{
   max-width: 185px;
@@ -76,4 +92,12 @@ input{
   text-align: center;
   font-weight: bold;
   margin-bottom: 1rem; 
+}
+
+/* Adicionar estilo da div */
+#result.verde{
+  background: #43a15f;
+}
+#result.vermelho{
+  background: #e06767;
 }
