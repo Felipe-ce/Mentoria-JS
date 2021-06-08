@@ -1,4 +1,4 @@
-import initmultiplicar from './modules/multiplicar.js'
+import initDesconto from './modules/desconto.js'
 
 
-initmultiplicar()
+initDesconto()
