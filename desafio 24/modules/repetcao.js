@@ -6,7 +6,7 @@ export default function initrepeticao() {
 
   // função para verificar se é maior de idade
   function gerarRepeticao() {
-    return result.innerHTML =  `<p>Repetição</p> `
+    return result.innerHTML =  `<p>Repetição</p> <p>Repetição</p>`
   }
   
   // evento de click
