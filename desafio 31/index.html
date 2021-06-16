@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Tabuada</title>
+</head>
+<body>
+  <main>
+    <section class="content">
+      <h1>Tabuada</h1>
+
+      <!-- <input type="number"  id="anonascimento"> -->
+      
+      <div class="select-item">
+        <label for="sinal" class="label-select">Selecione Sinal</label>
+        <select name="sinal" id="sinal" class="select">
+          <option value="+">Adição</option>
+          <option value="*">Multiplicação</option>
+          <option value="/">Divisão</option>
+          <option disabled value="-">Subitração</option>
+        </select>
+      </div>
+
+
+      <div class="select-item">
+        <label for="numero" class="label-select">Selecione Numero</label>
+        
+        <select name="numero" id="numero" class="select">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+
+      <div id="result">
+        
+      </div>
+
+      <button class="btn" id="btn" type="submit">Gerar</button>
+
+
+    </section>
+  </main>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
