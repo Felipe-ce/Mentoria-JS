@@ -5,7 +5,7 @@ export default function initNumeroAleatorio() {
 
 
   function numeroAleatorio() {
-    // Definindo de 0 a 10
+    // Definindo de 0 a 1000
     const numeroAleatorio = Math.random() * (1000 - 0) + 0
 
     result.innerHTML = numeroAleatorio.toFixed()/*Arredondando numero para inteiro*/
